@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const UserEmailValidation = () => {
+const useEmailValidation = () => {
     const [email, setEmail] = useState('');
     const [error, setError] = useState('');
 
@@ -12,7 +12,7 @@ const UserEmailValidation = () => {
     const handleSubmit = (e, callback) => {
         e.preventDefault();
         if (!validateEmail(email)) {
-            setError('Check your email address');
+            setError('Please check your email');
         } else {
             setError('');
             if (callback) {
@@ -25,4 +25,4 @@ const UserEmailValidation = () => {
 
 };
 
-export default UserEmailValidation;
+export default useEmailValidation;
