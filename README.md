@@ -53,6 +53,8 @@ Users should be able to:
 
 - Using optimal way grid and flexbox to get the things done.
 - Finish the development nicely with responsiveness using tailwind css.
+- Email validation added with RegEx and if Email is invalid UI will inform user by showing error message and appropriate styles.
+- create custom hook and use it will multiple use cases.
 
 ### Continued development
 
